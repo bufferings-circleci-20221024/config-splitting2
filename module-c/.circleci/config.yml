@@ -10,6 +10,6 @@ jobs:
       - run: echo Hello from module-c
 
 workflows:
-  A-main-workflow:
+  C-main-workflow:
     jobs:
       - C-build
