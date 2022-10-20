@@ -1,0 +1,15 @@
+version: 2.1
+
+# Resources defined in this config have a prefix `A-` to avoid conflicts upon combine/merge
+
+jobs:
+  A-build:
+    docker:
+      - image: cimg/base:stable
+    steps:
+      - run: echo Hello from module-a
+
+workflows:
+  A-main-workflow:
+    jobs:
+      - A-build

@@ -1,0 +1,3 @@
+module-a/.circleci/config.yml
+module-b/.circleci/config.yml
+module-c/.circleci/config.yml
