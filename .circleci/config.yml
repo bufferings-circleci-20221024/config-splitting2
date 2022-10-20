@@ -9,4 +9,4 @@ workflows:
   setup:
     jobs:
       - config-splitting/run-all-modular-configs:
-          config-list-file: .circleci/config-list.txt
+          config-list-file: .circleci/configs.txt
